@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HT Sport</title>
+    <link rel="stylesheet" href="css/case.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <ul>
+          <li><img src="images/up (1).png" alt="" class="logo" /></li>
+          <li><a href="">Trang Chủ</a></li>
+          <li><a href="">Giày Cỏ Nhân Tạo</a></li>
+          <li><a href="">Giày Đinh Cỏ Tự Nhiên</a></li>
+          <li><a href="">Áo Quần</a></li>
+          <li><a href="">Phụ Kiện</a></li>
+        </ul>
+        <form action="">
+          <input
+            type="text"
+            required
+            class="text"
+            placeholder="Nhập thứ bạn muốn tìm kiếm"
+          />
+          <input type="submit" value="Tìm Kiếm" class="timkiem" />
+        </form>
+      </div>
+      <div class="banner"></div>
+    <div class="container">
+      <div class="row">
+        <div class="add-item">
+          <div class="form-group">
+            <label for="productName">Tên sản phẩm</label>
+            <input type="text" id="productName" class="form-control" placeholder="Nhập tên sản phẩm">
+            <label for="productImage">Hình ảnh</label>
+            <input type="text" id="image" class="form-control" placeholder="Hình ảnh sản phẩm">
+            <label for="productPrice">Giá</label>
+            <input type="number" id="price" class="form-control" placeholder="Nhập giá sản phẩm">
+            <label for="productAmount">Số lượng</label>
+            <input type="number" id="amount" class="form-control" placeholder="Nhập số lượng sản phẩm">
+            <label for=""></label>
+            <button class="btn btn-primary" onclick="addProduct()">Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="row_1"> 
+        <div class="show-item">
+          <table class="table table-hovered">
+            <thead>
+              <tr>
+                <th>Mã sản phẩm</th>
+                <th>Tên sản phẩm</th>
+                <th>Hình ảnh</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+             
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="case.js"></script>
+  </body>
+</html>
